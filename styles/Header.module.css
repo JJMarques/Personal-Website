@@ -1,0 +1,130 @@
+.header {
+    height: 100vh;
+    background: rgb(5,11,50);
+    background: linear-gradient(0deg, rgba(5,11,50,1) 0%, rgba(35,44,91,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    color: white;
+    font-weight: 500;
+    font-size: 5em;
+    animation: onLoad 1s
+}
+
+.roles {
+    margin: 1em 0 3em 0;
+    display: flex;
+    animation: onLoad 1s
+}
+
+    .roles span {
+        color: rgb(218, 50, 190);
+        font-size: 1.4em;
+        animation: onLoad 1s
+    }
+
+    .roles h3 {
+        color: white;
+        font-weight: 200;
+        font-size: 1.5em;
+        margin: 0 0.8em;
+        animation: onLoad 1s
+    }
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    animation: onLoad 1s
+}
+
+    .callToAction a {
+        color: white;
+        padding: 0.7em 1.5em;
+        background: rgb(218, 50, 190);
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        animation: example 2s infinite;
+        -webkit-animation: example 2s infinite;
+        animation-delay: 2s;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .callToAction a:last-child {
+        color: white;
+        padding: 0.7em 1.5em;
+        background: rgb(218, 50, 190);
+        border-radius: 10px;
+        margin-left: 2em;
+        animation: example 2s infinite;
+        animation-delay: 1s;
+    }
+
+        .callToAction a:hover {
+            background: rgb(121, 26, 105);
+        }
+
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 4em;
+        margin-left: 0.7em;
+        margin-bottom: 0.6em;
+    }
+    .roles {
+        flex-direction: column;
+    }
+    .roles span {
+        color: rgb(218, 50, 190);
+        font-size: 1.3em;
+        animation: onLoad 1s
+    }
+
+    .roles h3 {
+        color: white;
+        font-weight: 200;
+        font-size: 1.8em;
+        margin: 0;
+        animation: onLoad 1s
+    }
+    .callToAction a {
+        font-size: 0.9em;
+    }
+
+}
+
+@keyframes example {
+    0%   {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    50%  {
+        transform: scale(1.08);
+        -webkit-transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@keyframes onLoad {
+    0%   {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
