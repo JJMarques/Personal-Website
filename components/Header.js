@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
-import { BsArrowUpRight } from 'react-icons/bs'
+import { BsArrowUpRight, BsPersonFill } from 'react-icons/bs'
 
 function Header() {
     return (
@@ -18,7 +18,12 @@ function Header() {
                 </Link>
                 <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Technologies</a>
             </div>
-            
+            <div className={styles.otherOptions}>
+                <h3 style={{ fontWeight: '200' }}>Or...</h3>
+                <Link href="/about-me">
+                    <a><BsPersonFill style={{ marginRight: '20px' }} /> Know more about me</a>
+                </Link>
+            </div>
         </div>
     )
 }

@@ -97,11 +97,32 @@
             border-radius: 50%;
             margin: 0 5px;
             cursor: pointer;
+            text-decoration: none;
+        }   
+
+        .projectIcons a small {
+            margin-left: 10px;
         }
 
             .projectIcons a:hover {
                 color: rgb(218, 50, 190);
             }
+
+.comingSoon {
+    margin-top: 2em;
+    color: rgb(110, 110, 110);
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: onLoad 1s
+}
+
+    .comingSoon h2 {
+        font-size: 1.3em
+    }
 
 @media only screen and (max-width: 900px) {
     .title {

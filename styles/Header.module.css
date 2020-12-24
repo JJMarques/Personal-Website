@@ -72,6 +72,32 @@
             background: rgb(121, 26, 105);
         }
 
+.otherOptions {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    animation: onLoad 1s
+}
+
+    .otherOptions a {
+        margin-top: 20px;
+        padding: 0.7em 1.5em;
+        background: rgb(0, 0, 0);
+        border-radius: 10px;
+        text-decoration: none;
+        color:  rgb(255, 255, 255);
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+
+        .otherOptions a:hover {
+            color:  rgb(218, 50, 190);
+        }
 
 @media only screen and (max-width: 600px) {
     .name {

@@ -24,28 +24,21 @@ function Projects({ projects }) {
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                                     <a href={project.githubHref} target="_blank">
                                         <FiGithub style={{ fontSize: '1.5em' }} />
-                                    </a>
                                     <small>Github</small>
+                                    </a>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                                     <a href={project.pageHref} target="_blank">
                                         <FiArrowUpRight style={{ fontSize: '1.5em' }} />
-                                    </a>
                                     <small>Visit</small>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     ))}
-                    <div className={styles.projectCardDisabled}>
-                        <div className={styles.projectIcons}>
-                            <h2 style={{ fontWeight: '300' }}> Coming soon...</h2>
-                        </div>
-                    </div>
-                    <div className={styles.projectCardDisabled}>
-                        <div className={styles.projectIcons}>
-                            <h2 style={{ fontWeight: '300' }}> Coming soon...</h2>
-                        </div>
-                    </div>
+                </div>
+                <div className={styles.comingSoon}>
+                    <h2 style={{ fontWeight: '300' }}> More coming soon...</h2>
                 </div>
             </div>
         </div>
