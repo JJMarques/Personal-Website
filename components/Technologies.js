@@ -130,10 +130,6 @@ export default function Technologies() {
                                 <small>Adobe Xd</small>
                             </div>
                             <div className={styles.technologyItem}>
-                                <SiAdobeillustrator style={iconStyle} />
-                                <small>Adobe Illustrator</small>
-                            </div>
-                            <div className={styles.technologyItem}>
                                 <SiFigma style={iconStyle} />
                                 <small>Figma</small>
                             </div>
