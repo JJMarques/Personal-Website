@@ -15,7 +15,9 @@ import {
     SiNpm,
     SiRedux,
     SiGatsby,
-    SiVueDotJs } from 'react-icons/si'
+    SiAdobexd,
+    SiAdobeillustrator,
+    SiFigma } from 'react-icons/si'
 import Link from 'next/link'
 
 export default function Technologies() {
@@ -61,7 +63,7 @@ export default function Technologies() {
                             </div>
                             <div className={styles.technologyItem}>
                                 <SiNodeDotJs style={iconStyle} />
-                                <small>Node.js & Express.js</small>
+                                <small>Node.js</small>
                             </div>
                         </div>
                     </div>
@@ -118,9 +120,22 @@ export default function Technologies() {
                                 <SiGatsby style={iconStyle} />
                                 <small>Gatsby.js</small>
                             </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>Web Design / Prototyping</h1>
+                        <div className={styles.technologiesList}>
                             <div className={styles.technologyItem}>
-                                <SiVueDotJs style={iconStyle} />
-                                <small>Vue.js</small>
+                                <SiAdobexd style={iconStyle} />
+                                <small>Adobe Xd</small>
+                            </div>
+                            <div className={styles.technologyItem}>
+                                <SiAdobeillustrator style={iconStyle} />
+                                <small>Adobe Illustrator</small>
+                            </div>
+                            <div className={styles.technologyItem}>
+                                <SiFigma style={iconStyle} />
+                                <small>Figma</small>
                             </div>
                         </div>
                     </div>
