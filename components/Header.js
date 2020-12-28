@@ -16,7 +16,9 @@ function Header() {
                 <Link href="/projects">
                     <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Projects </a>
                 </Link>
-                <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Technologies</a>
+                <Link href="/technologies">
+                    <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Tech-stack</a>
+                </Link>
             </div>
             <div className={styles.otherOptions}>
                 <h3 style={{ fontWeight: '200' }}>Or...</h3>

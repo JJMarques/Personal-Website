@@ -84,7 +84,7 @@
     .otherOptions a {
         margin-top: 20px;
         padding: 0.7em 1.5em;
-        background: rgb(0, 0, 0);
+        background: rgb(10, 10, 10);
         border-radius: 10px;
         text-decoration: none;
         color:  rgb(255, 255, 255);
@@ -96,6 +96,7 @@
     }
 
         .otherOptions a:hover {
+            background: rgb(0, 0, 0);
             color:  rgb(218, 50, 190);
         }
 

@@ -1,0 +1,132 @@
+.technologies {
+    min-height: 100vh;
+    background: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 27, 27);
+}
+
+.technologiesContainers {
+    width: 800px;
+    min-height: 100vh;
+}
+
+.titleReturn {
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: onLoad 1s
+}
+
+    .title {
+        font-size: 3em;
+    }
+
+    .return {
+        font-size: 1.2em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(27, 27, 27);
+    }
+
+    .return:hover {
+        font-size: 1.2em;
+        color: rgb(218, 50, 190);
+    }
+
+.separator {
+    margin: 1em 0;
+    height: 5px;
+    width: 170px;
+    background: rgb(218, 50, 190);
+    animation: onLoad 1s
+}
+
+.technologiesDisplay {
+    margin-bottom: 3em;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    animation: onLoad 1s
+}
+
+    .technologiesDisplay h1 {
+        margin-top: 3em;
+        color: rgb(48, 48, 48);
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+
+    .technologiesList {
+        margin-top: 1.5em;
+        height: auto;
+        width: 0;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 1rem;
+    }
+
+    .technologyItem {
+        background: rgb(230, 230, 230);
+        color:rgb(218, 50, 190);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .technologyItem small {
+            text-align: center;
+            color: rgb(48, 48, 48);
+        }
+
+
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size: 2em;
+    }
+    .return {
+        font-size: 1em;
+    }
+    .technologiesContainers {
+        width: 300px;
+    }
+    .separator {
+        margin: 1em 0;
+        height: 3px;
+        width: 130px;
+    }
+    .technologiesDisplay {
+        grid-template-columns: repeat(1, 1fr);
+    }
+        .technologiesDisplay h1 {
+            margin-top: 2em;
+        }
+    .technologiesList {
+        margin-top: 1.5em;
+        height: auto;
+        width: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+@keyframes onLoad {
+    0%   {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
