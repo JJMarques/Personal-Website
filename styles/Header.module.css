@@ -8,6 +8,29 @@
     justify-content: center;
 }
 
+.social {
+    display: flex;
+    margin-bottom: 30px;
+    animation: onLoad 1s
+}
+.social a {
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+        background:rgb(13, 19, 61);
+        border-radius: 50px;
+        font-size: 2em;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .social a:hover {
+        color: rgb(218, 50, 190);
+    }
+
 .name {
     color: white;
     font-weight: 500;
@@ -101,6 +124,16 @@
         }
 
 @media only screen and (max-width: 600px) {
+
+    .social {
+        margin-right: 12em;
+    }
+    .social a {
+        height: 45px;
+        width: 45px;
+        font-size: 1.5em;
+    }
+
     .name {
         font-size: 4em;
         margin-left: 0.7em;
