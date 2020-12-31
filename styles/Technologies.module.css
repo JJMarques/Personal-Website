@@ -121,8 +121,9 @@
         gap: 1rem;
     }
     .technologyItem {
-        height: 140px;
-        padding: 0.5em;
+        border-radius: 10px;
+        height: 150px;
+        padding: 0.2em;
     }
         .technologyItem small {
             font-size: 0.7em;
