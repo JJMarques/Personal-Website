@@ -99,27 +99,6 @@ export default function Technologies() {
                                 <SiDocker style={iconStyle} />
                                 <small>Docker</small>
                             </div>
-                            <div className={styles.technologyItem}>
-                                <SiNpm style={iconStyle} />
-                                <small>NPM</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h1>Still mastering...</h1>
-                        <div className={styles.technologiesList}>
-                            <div className={styles.technologyItem}>
-                                <SiReact style={iconStyle} />
-                                <small>React-Query</small>
-                            </div>
-                            <div className={styles.technologyItem}>
-                                <SiRedux style={iconStyle} />
-                                <small>Redux</small>
-                            </div>
-                            <div className={styles.technologyItem}>
-                                <SiGatsby style={iconStyle} />
-                                <small>Gatsby.js</small>
-                            </div>
                         </div>
                     </div>
                     <div>
@@ -132,6 +111,23 @@ export default function Technologies() {
                             <div className={styles.technologyItem}>
                                 <SiFigma style={iconStyle} />
                                 <small>Figma</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>Learning...</h1>
+                        <div className={styles.technologiesList}>
+                            <div className={styles.technologyItem}>
+                                <SiReact style={iconStyle} />
+                                <small>React-Query</small>
+                            </div>
+                            <div className={styles.technologyItem}>
+                                <SiRedux style={iconStyle} />
+                                <small>Redux</small>
+                            </div>
+                            <div className={styles.technologyItem}>
+                                <SiGatsby style={iconStyle} />
+                                <small>Gatsby.js</small>
                             </div>
                         </div>
                     </div>

@@ -50,7 +50,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 1rem;
-    margin-top: 2em;
+    margin-top: 5em;
     width: 100%;
     height: auto;
     animation: onLoad 1s

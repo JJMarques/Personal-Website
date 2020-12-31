@@ -75,7 +75,7 @@
     .technologyItem {
         background: rgb(255, 255, 255);
         height: 160px;
-        padding: 1em;
+        padding: 0.7em;
         border-radius: 20px;
         color:rgb(218, 50, 190);
         display: flex;
@@ -85,6 +85,7 @@
     }
 
         .technologyItem small {
+            font-size: 0.8em;
             text-align: center;
             color: rgb(48, 48, 48);
         }
