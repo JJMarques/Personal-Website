@@ -10,7 +10,7 @@
 
 .social {
     display: flex;
-    margin-bottom: 30px;
+    margin-top: 30px;
     animation: onLoad 1s
 }
 .social a {
@@ -125,9 +125,6 @@
 
 @media only screen and (max-width: 600px) {
 
-    .social {
-        margin-right: 12em;
-    }
     .social a {
         height: 45px;
         width: 45px;

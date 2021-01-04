@@ -3,6 +3,7 @@ import styles from '../styles/Projects.module.css'
 import { BiArrowBack } from 'react-icons/bi'
 import { FiGithub, FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Projects({ projects }) {
 
@@ -19,7 +20,14 @@ function Projects({ projects }) {
                 <div className={styles.projectsDisplay}>
                     {projects.map( (project, key) => (
                         <div className={styles.projectCard} key={key}>
-                            <img src={project.img} className={styles.projectImg} alt={project.name} />
+                            <Image 
+                                src={project.img} 
+                                layout='responsive' 
+                                width='390' 
+                                height='200' 
+                                className={styles.projectImg} 
+                                alt={project.name} 
+                            />
                             <div className={styles.projectIcons}>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                                     <a href={project.githubHref} target="_blank">
