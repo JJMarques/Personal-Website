@@ -20,23 +20,20 @@ function Projects({ projects }) {
                 <div className={styles.projectsDisplay}>
                     {projects.map( (project, key) => (
                         <div className={styles.projectCard} key={key}>
-                            <Image 
+                            <img 
                                 src={project.img} 
-                                layout='responsive' 
-                                width='390' 
-                                height='200' 
                                 className={styles.projectImg} 
                                 alt={project.name} 
                             />
                             <div className={styles.projectIcons}>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
-                                    <a href={project.githubHref} target="_blank">
+                                    <a href={project.githubHref} target="_blank" rel="noreferrer">
                                         <FiGithub style={{ fontSize: '1.5em' }} />
                                     <small>Github</small>
                                     </a>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
-                                    <a href={project.pageHref} target="_blank">
+                                    <a href={project.pageHref} target="_blank" rel="noreferrer">
                                         <FiArrowUpRight style={{ fontSize: '1.5em' }} />
                                     <small>Visit</small>
                                     </a>
@@ -44,9 +41,6 @@ function Projects({ projects }) {
                             </div>
                         </div>
                     ))}
-                </div>
-                <div className={styles.comingSoon}>
-                    <h2 style={{ fontWeight: '300' }}> More coming soon...</h2>
                 </div>
             </div>
         </div>

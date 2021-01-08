@@ -53,6 +53,10 @@
     animation: onLoad 1s
 }
 
+    .aboutMeDisplay p {
+        line-height: 2.1em;
+    }
+
 
 @media only screen and (max-width: 900px) {
     .title {
@@ -68,6 +72,9 @@
         margin: 1em 0;
         height: 3px;
         width: 130px;
+    }
+    .aboutMeDisplay p {
+        font-size: 0.9em;
     }
 }
 

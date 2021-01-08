@@ -10,7 +10,7 @@
 
 .social {
     display: flex;
-    margin-top: 30px;
+    margin-bottom: 20px;
     animation: onLoad 1s
 }
 .social a {
@@ -44,17 +44,18 @@
     animation: onLoad 1s
 }
 
-    .roles span {
+    .roles h3 {
         color: rgb(218, 50, 190);
         font-size: 1.4em;
+        font-weight: 500;
         animation: onLoad 1s
     }
-
-    .roles h3 {
+    
+    .roles span {
         color: white;
-        font-weight: 200;
         font-size: 1.5em;
         margin: 0 0.8em;
+        font-weight: 200;
         animation: onLoad 1s
     }
 
@@ -125,6 +126,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    .social {
+        transform: translateX(-90px);
+    }
+
     .social a {
         height: 45px;
         width: 45px;
@@ -139,13 +144,13 @@
     .roles {
         flex-direction: column;
     }
-    .roles span {
+    .roles h3 {
         color: rgb(218, 50, 190);
-        font-size: 1.3em;
+        font-size: 1.4em;
         animation: onLoad 1s
     }
 
-    .roles h3 {
+    .roles span {
         color: white;
         font-weight: 200;
         font-size: 1.8em;

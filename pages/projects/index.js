@@ -1,9 +1,18 @@
 import React from 'react'
 import Projects from '../../components/Projects'
+import Head from 'next/head'
 
 export default function ProjectsPage({ projects }) {
     return (
-        <Projects projects={projects} />
+        <main>
+            <Head>
+                <title>Projects - José Marques - Front-End Web Developer & Web Designer</title>
+                <meta name="description" content="Check my Projects! Im José Marques and im an Front-End Web Developer and Web Designer from Coimbra, Portugal." />
+                <meta property="og:title" content="Projects - José Marques - Front-End Web Developer & Web Designer" />
+                <meta property="og:description" content="Check my Projects! Im José Marques and im an Front-End Web Developer and Web Designer from Coimbra, Portugal." />
+            </Head>
+            <Projects projects={projects} />
+        </main>
     )
 }
 

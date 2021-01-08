@@ -15,15 +15,23 @@ function AboutMe() {
                 </div>
                 <div className={styles.separator}></div>
                 <div className={styles.aboutMeDisplay}>
-                    <h3 style={{ fontWeight: '300', lineHeight: '1.8em' }}>
+                    <h2 style={{ fontWeight: '300', lineHeight: '1.8em' }}>
                         <strong>Hello there!</strong> 
+                    </h2>
                         <br/>
-                        My name is José Marques, i'm 22 years old, 
-                        and im from Coimbra, Portugal.
-                        <br/>
-                        <br/>
-                        
-                    </h3>
+                            <p>
+                            My name is José Marques, i'm 22 years old, 
+                            and im from Coimbra, Portugal.
+                            <br/><br/>
+                            I graduated in <strong>Multimedia</strong> from <strong>Instituto Superior Miguel Torga</strong> and 
+                            since then <strong>Web Development</strong> has been my biggest professional passion.
+                            <br/>
+                            I focus on developing <strong>clean</strong> and <strong>reusable</strong> code,
+                            and to follow and promote <strong>the industry best practices</strong> and <strong>good code readability.</strong>
+                            <br/><br/>
+                            I choose my technologies based on the necessities of the project and the development experience they provide, but
+                            im always open to try / learn new things.
+                        </p>
                 </div>
             </div>
         </div>

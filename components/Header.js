@@ -8,25 +8,25 @@ function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.social}>
-                <a href="https://www.instagram.com/jmarques_98/" target="_blank">
+                <a href="https://www.instagram.com/jmarques_98/" rel="noreferrer" target="_blank">
                     <FiInstagram />
                 </a>
-                <a href="https://github.com/JJMarques" target="_blank" style={{ marginLeft: '30px' }}>
+                <a href="https://github.com/JJMarques" target="_blank" rel="noreferrer" style={{ marginLeft: '30px' }}>
                     <FiGithub />
                 </a>
             </div>
             <h1 className={styles.name}>José Marques</h1>
             <div className={styles.roles}>
-                <span>Front-end Web Developer</span>
-                <h3>&</h3>
-                <span>Web Designer</span>
+                <h3>Front-end Web Developer</h3>
+                <span>&</span>
+                <h3>Web Designer</h3>
             </div>
             <div className={styles.callToAction}>
                 <Link href="/projects">
                     <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Projects </a>
                 </Link>
                 <Link href="/technologies">
-                    <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Tech-stack</a>
+                    <a> <BsArrowUpRight style={{ marginRight: '1em' }} /> Tech Stack</a>
                 </Link>
             </div>
             <div className={styles.otherOptions}>
