@@ -11,7 +11,6 @@
 .social {
     display: flex;
     margin-bottom: 20px;
-    animation: onLoad 1s
 }
 .social a {
         color: rgb(255, 255, 255);
@@ -44,7 +43,7 @@
     animation: onLoad 1s
 }
 
-    .roles h3 {
+    .roles h2 {
         color: rgb(218, 50, 190);
         font-size: 1.4em;
         font-weight: 500;

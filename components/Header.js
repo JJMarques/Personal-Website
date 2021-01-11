@@ -8,18 +8,28 @@ function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.social}>
-                <a href="https://www.instagram.com/jmarques_98/" rel="noreferrer" target="_blank">
+                <a 
+                    href="https://www.instagram.com/jmarques_98/" 
+                    rel="noreferrer" 
+                    target="_blank"
+                    aria-label="My instagram page"
+                >
                     <FiInstagram />
                 </a>
-                <a href="https://github.com/JJMarques" target="_blank" rel="noreferrer" style={{ marginLeft: '30px' }}>
+                <a 
+                    href="https://github.com/JJMarques" 
+                    target="_blank" rel="noreferrer" 
+                    style={{ marginLeft: '30px' }}
+                    aria-label="My github account"
+                >
                     <FiGithub />
                 </a>
             </div>
             <h1 className={styles.name}>José Marques</h1>
             <div className={styles.roles}>
-                <h3>Front-end Web Developer</h3>
+                <h2>Front-end Web Developer</h2>
                 <span>&</span>
-                <h3>Web Designer</h3>
+                <h2>Web Designer</h2>
             </div>
             <div className={styles.callToAction}>
                 <Link href="/projects">
@@ -30,7 +40,7 @@ function Header() {
                 </Link>
             </div>
             <div className={styles.otherOptions}>
-                <h3 style={{ fontWeight: '200' }}>Or...</h3>
+                <span style={{ fontWeight: '200' }}>Or...</span>
                 <Link href="/about-me">
                     <a><BsPersonFill style={{ marginRight: '20px' }} /> Know more about me</a>
                 </Link>
