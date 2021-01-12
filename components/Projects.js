@@ -1,9 +1,8 @@
 import React from 'react'
-import styles from '../styles/Projects.module.css'
+import styles from '../styles/Projects.module.scss'
 import { BiArrowBack } from 'react-icons/bi'
 import { FiGithub, FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
-import Image from 'next/image'
 
 function Projects({ projects }) {
 
@@ -41,6 +40,24 @@ function Projects({ projects }) {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className={styles.navigation}>
+                    <Link href="/technologies">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            My tech-stack
+                        </a>
+                    </Link>
+                    <Link href="/about-me">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            About Me
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>
