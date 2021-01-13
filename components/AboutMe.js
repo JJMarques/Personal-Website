@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/AboutMe.module.css'
 import Link from 'next/link'
 import { BiArrowBack } from 'react-icons/bi'
+import { FiArrowUpRight } from 'react-icons/fi'
 
 function AboutMe() {
     return (
@@ -20,18 +21,38 @@ function AboutMe() {
                     </h2>
                         <br/>
                             <p>
-                            My name is José Marques, i'm 22 years old, 
-                            and im from Coimbra, Portugal.
+                            My name is José Marques and im from Coimbra, Portugal. Im 22 years old.
                             <br/><br/>
                             I graduated in <strong>Multimedia</strong> from <strong>Instituto Superior Miguel Torga</strong> and 
                             since then <strong>Web Development</strong> has been my biggest professional passion.
                             <br/>
-                            I focus on developing <strong>clean</strong> and <strong>reusable</strong> code,
-                            and to follow and promote <strong>the industry best practices</strong> and <strong>good code readability.</strong>
+                            I like to challenge myself to learn new things and to keep improving myself and that also applies to coding and development.
                             <br/><br/>
-                            I choose my technologies based on the necessities of the project and the development experience they provide, but
-                            im always open to try / learn new things.
+                            I love <strong>front-end technologies</strong> (despite having some experience with back-end) and building <strong>good-looking</strong>,&nbsp; 
+                            <strong>performant</strong>, and <strong>acessible</strong> Web applications. 
+                            <br/>As a huge fan of <strong>React.js</strong>, lately i've been very 
+                            interested on <strong>jamstack</strong>, so <strong>Next.js</strong> and <strong>Gatsby</strong> are currently my favorite technologies. <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
+                            <br/> 
+                            I also have an eye for design, so i always look forward to build interesting and responsive user interfaces.
                         </p>
+                </div>
+                <div className={styles.navigation}>
+                    <Link href="/technologies">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            My tech-stack
+                        </a>
+                    </Link>
+                    <Link href="/projects">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            Projects
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -12,12 +12,11 @@ import {
     SiHtml5,
     SiGit,
     SiDocker,
-    SiNpm,
     SiRedux,
     SiGatsby,
     SiAdobexd,
-    SiAdobeillustrator,
     SiFigma } from 'react-icons/si'
+import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
 export default function Technologies() {
@@ -118,19 +117,37 @@ export default function Technologies() {
                         <h1>Learning...</h1>
                         <div className={styles.technologiesList}>
                             <div className={styles.technologyItem}>
-                                <SiReact style={iconStyle} />
-                                <small>React-Query</small>
+                                <SiGatsby style={iconStyle} />
+                                <small>Gatsby</small>
                             </div>
                             <div className={styles.technologyItem}>
                                 <SiRedux style={iconStyle} />
                                 <small>Redux</small>
                             </div>
                             <div className={styles.technologyItem}>
-                                <SiGatsby style={iconStyle} />
-                                <small>Gatsby.js</small>
+                                <SiReact style={iconStyle} />
+                                <small>React-Query</small>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className={styles.navigation}>
+                <Link href="/projects">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            Projects
+                        </a>
+                    </Link>
+                    <Link href="/about-me">
+                        <a>
+                            <FiArrowUpRight 
+                                style={{ marginRight: '10px' }} 
+                            />
+                            About Me
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>

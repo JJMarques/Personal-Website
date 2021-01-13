@@ -11,6 +11,7 @@
 .social {
     display: flex;
     margin-bottom: 20px;
+    animation: onLoadIcons 2s
 }
 .social a {
         color: rgb(255, 255, 255);
@@ -186,6 +187,15 @@
     100% {
         transform: translateY(0);
         -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes onLoadIcons {
+    0%   {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }

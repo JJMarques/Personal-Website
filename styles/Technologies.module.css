@@ -90,6 +90,31 @@
             color: rgb(48, 48, 48);
         }
 
+.navigation {
+    display: flex;
+    width: 95%;
+    margin: 4em 0;
+    animation: onLoad 1s;
+}
+
+    .navigation a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: rgb(199, 199, 199);
+        color: rgb(36, 36, 36);
+        text-decoration: none;
+        padding: 0.7em 4em;
+        border-radius: 5px;
+        transition: 0.2s all ease-in-out;
+        margin: 0 8px;
+    }
+
+    .navigation a:hover {
+        background: rgb(192, 192, 192);
+        color: rgb(218, 50, 190);
+    }
 
 @media only screen and (max-width: 900px) {
     .title {
@@ -128,6 +153,12 @@
         .technologyItem small {
             font-size: 0.7em;
         }
+
+    .navigation {
+        flex-direction: column;
+        height: 110px;
+        justify-content: space-between;
+    }
 }
 
 @keyframes onLoad {
