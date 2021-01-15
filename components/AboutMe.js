@@ -30,6 +30,9 @@ function AboutMe() {
                             <br/><br/>
                             I love <strong>front-end technologies</strong> (despite having some experience with back-end) and building <strong>good-looking</strong>,&nbsp; 
                             <strong>performant</strong>, and <strong>acessible</strong> Web applications. 
+                            <br/>
+                            I started out getting a solid foundation of <strong>HTML5</strong>, <strong>CSS3</strong> and (specially) <strong>vanilla JavaScript</strong>, and then moved on to frameworks and started to try
+                            to implement <strong>TypeScript</strong>.
                             <br/>As a huge fan of <strong>React.js</strong>, lately i've been very 
                             interested on <strong>jamstack</strong>, so <strong>Next.js</strong> and <strong>Gatsby</strong> are currently my favorite technologies. <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
                             <br/> 
@@ -53,6 +56,9 @@ function AboutMe() {
                             Projects
                         </a>
                     </Link>
+                </div>
+                <div className={styles.footer}>
+                    <p>José Marques 2021 - Contact me at <a href="mailto:jjgm98@gmail.com">jjgm98@gmail.com</a></p>
                 </div>
             </div>
         </div>

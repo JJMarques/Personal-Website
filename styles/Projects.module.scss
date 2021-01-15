@@ -120,6 +120,20 @@
                 }
             }
         }
+
+        .footer {
+            text-align: center;
+            margin-bottom: 2em;
+            font-size: 0.8em;
+            animation: onLoad 1s;
+            p {
+                font-weight: 600;
+            }
+
+            a {
+                color: rgb(218, 50, 190);
+            }
+        }
     }
 }
 

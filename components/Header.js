@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 import { BsArrowUpRight, BsPersonFill } from 'react-icons/bs'
 import { FiInstagram, FiGithub } from 'react-icons/fi'
+import { SiGmail } from 'react-icons/si'
 
 function Header() {
     return (
@@ -23,6 +24,14 @@ function Header() {
                     aria-label="My github account"
                 >
                     <FiGithub />
+                </a>
+                <a
+                    href="mailto:jjgm98@gmail.com" 
+                    target="_blank" rel="noreferrer" 
+                    style={{ marginLeft: '30px' }}
+                    aria-label="Contact me via email"
+                >
+                    <SiGmail />
                 </a>
             </div>
             <h1 className={styles.name}>José Marques</h1>

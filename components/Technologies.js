@@ -15,7 +15,8 @@ import {
     SiRedux,
     SiGatsby,
     SiAdobexd,
-    SiFigma } from 'react-icons/si'
+    SiFigma,
+    SiJest } from 'react-icons/si'
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
@@ -114,7 +115,7 @@ export default function Technologies() {
                         </div>
                     </div>
                     <div>
-                        <h1>Learning...</h1>
+                        <h1>Getting better at...</h1>
                         <div className={styles.technologiesList}>
                             <div className={styles.technologyItem}>
                                 <SiGatsby style={iconStyle} />
@@ -125,8 +126,8 @@ export default function Technologies() {
                                 <small>Redux</small>
                             </div>
                             <div className={styles.technologyItem}>
-                                <SiReact style={iconStyle} />
-                                <small>React-Query</small>
+                                <SiJest style={iconStyle} />
+                                <small>Jest</small>
                             </div>
                         </div>
                     </div>
@@ -148,6 +149,9 @@ export default function Technologies() {
                             About Me
                         </a>
                     </Link>
+                </div>
+                <div className={styles.footer}>
+                    <p>José Marques 2021 - Contact me at <a href="mailto:jjgm98@gmail.com">jjgm98@gmail.com</a></p>
                 </div>
             </div>
         </div>

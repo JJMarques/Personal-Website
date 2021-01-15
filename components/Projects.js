@@ -59,6 +59,9 @@ function Projects({ projects }) {
                         </a>
                     </Link>
                 </div>
+                <div className={styles.footer}>
+                    <p>José Marques 2021 - Contact me at <a href="mailto:jjgm98@gmail.com">jjgm98@gmail.com</a></p>
+                </div>
             </div>
         </div>
     )
