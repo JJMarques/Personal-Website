@@ -26,17 +26,18 @@ function AboutMe() {
                             I graduated in <strong>Multimedia</strong> from <strong>Instituto Superior Miguel Torga</strong> and 
                             since then <strong>Web Development</strong> has been my biggest professional passion.
                             <br/>
-                            I like to challenge myself to learn new things and to keep improving myself and that also applies to coding and development.
+                            I like to challenge myself to learn new things and to keep improving myself, and that also applies to coding and development.
                             <br/><br/>
-                            I love <strong>front-end technologies</strong> (despite having some experience with back-end) and building <strong>good-looking</strong>,&nbsp; 
-                            <strong>performant</strong>, and <strong>acessible</strong> Web applications. 
+                            I love to work with <strong>front-end technologies</strong> and build <strong>good-looking</strong>,&nbsp; 
+                            <strong>performant</strong>, and <strong>acessible</strong> Web applications (despite having some experience with back-end).
                             <br/>
-                            I started out getting a solid foundation of <strong>HTML5</strong>, <strong>CSS3</strong> and (specially) <strong>vanilla JavaScript</strong>, and then moved on to frameworks and started to try
+                            I started out by getting a solid foundation of knowledge about <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>vanilla JavaScript</strong>, and the 
+                            Web in general, and then moved on to frameworks and started to try
                             to implement <strong>TypeScript</strong>.
                             <br/>As a huge fan of <strong>React.js</strong>, lately i've been very 
                             interested on <strong>jamstack</strong>, so <strong>Next.js</strong> and <strong>Gatsby</strong> are currently my favorite technologies. <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
                             <br/> 
-                            I also have an eye for design, so i always look forward to build interesting and responsive user interfaces.
+                            I also have an eye for design, so i always look forward to build interesting and fully responsive user interfaces.
                         </p>
                 </div>
                 <div className={styles.navigation}>
