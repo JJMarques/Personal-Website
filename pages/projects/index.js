@@ -31,6 +31,18 @@ export async function getStaticProps() {
             img: '/meteorologia.png',
             githubHref: 'https://github.com/JJMarques/V2-meteorologia-app-react',
             pageHref: 'https://meteorologia-pt.netlify.app/'
+        },
+        {
+            name: 'Task List Manager',
+            img: '/tasklist.png',
+            githubHref: 'https://github.com/JJMarques/taskList-nextjs',
+            pageHref: 'https://task-list-nextjs.vercel.app//'
+        },
+        {
+            name: 'Breaking Bad Searcher',
+            img: '/breakingbad.png',
+            githubHref: 'https://github.com/JJMarques/breaking-bad',
+            pageHref: 'https://breaking-bad-git-main.jjmarques.vercel.app/'
         }
     ]
     
