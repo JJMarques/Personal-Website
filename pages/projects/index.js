@@ -33,6 +33,12 @@ export async function getStaticProps() {
             pageHref: 'https://meteorologia-pt.netlify.app/'
         },
         {
+            name: '🔥 News PT',
+            img: '/hotnewspt.png',
+            githubHref: 'https://github.com/JJMarques/hot-news-portugalt',
+            pageHref: 'https://hot-news-portugal.jjmarques.vercel.app/'
+        },
+        {
             name: 'Task List Manager',
             img: '/tasklist.png',
             githubHref: 'https://github.com/JJMarques/taskList-nextjs',
