@@ -21,6 +21,12 @@ export async function getStaticProps() {
     
     let projects = [
         {
+            name: '🔥 News PT',
+            img: '/hotnewspt.png',
+            githubHref: 'https://github.com/JJMarques/hot-news-portugalt',
+            pageHref: 'https://hot-news-portugal.jjmarques.vercel.app/'
+        },
+        {
             name: 'PokeSearch',
             img: '/pokesearch.png',
             githubHref: 'https://github.com/JJMarques/PokeSearch-v1-react',
@@ -33,23 +39,23 @@ export async function getStaticProps() {
             pageHref: 'https://meteorologia-pt.netlify.app/'
         },
         {
-            name: '🔥 News PT',
-            img: '/hotnewspt.png',
-            githubHref: 'https://github.com/JJMarques/hot-news-portugalt',
-            pageHref: 'https://hot-news-portugal.jjmarques.vercel.app/'
-        },
-        {
-            name: 'Task List Manager',
-            img: '/tasklist.png',
-            githubHref: 'https://github.com/JJMarques/taskList-nextjs',
-            pageHref: 'https://task-list-nextjs.vercel.app//'
+            name: 'Redux ToDo',
+            img: '/reduxtodo.png',
+            githubHref: 'https://github.com/JJMarques/redux-tasklist',
+            pageHref: 'https://redux-tasklist.vercel.app/'
         },
         {
             name: 'Breaking Bad Searcher',
             img: '/breakingbad.png',
             githubHref: 'https://github.com/JJMarques/breaking-bad',
             pageHref: 'https://breaking-bad-git-main.jjmarques.vercel.app/'
-        }
+        },
+        {
+            name: 'Task List Manager',
+            img: '/tasklist.png',
+            githubHref: 'https://github.com/JJMarques/taskList-nextjs',
+            pageHref: 'https://task-list-nextjs.vercel.app/'
+        },
     ]
     
     return {
