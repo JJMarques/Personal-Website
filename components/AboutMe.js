@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/AboutMe.module.css'
+import styles from '../styles/AboutMe.module.scss'
 import Link from 'next/link'
 import { BiArrowBack } from 'react-icons/bi'
 import { FiArrowUpRight } from 'react-icons/fi'
@@ -17,7 +17,7 @@ function AboutMe() {
                 <div className={styles.separator}></div>
                 <div className={styles.aboutMeDisplay}>
                     <h2 style={{ fontWeight: '300', lineHeight: '1.8em' }}>
-                        <strong>Hello there!</strong> 
+                        <strong>Welcome!</strong> 
                     </h2>
                         <br/>
                             <p>
@@ -29,14 +29,13 @@ function AboutMe() {
                             I like to challenge myself to learn new things and to keep improving myself, and that also applies to coding and development.
                             <br/><br/>
                             I love to work with <strong>front-end technologies</strong> and build <strong>good-looking</strong>,&nbsp; 
-                            <strong>performant</strong>, and <strong>acessible</strong> Web applications (despite having some experience with back-end).
+                            <strong>performant</strong>, and <strong>acessible</strong> Web applications.
                             <br/>
-                            I started out by getting a solid foundation of knowledge about <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>vanilla JavaScript</strong>, and the 
-                            Web in general, and then moved on to frameworks and started to try
-                            to implement <strong>TypeScript</strong>.
-                            <br/>As a huge fan of <strong>React.js</strong>, lately i've been very 
-                            interested on <strong>jamstack</strong>, so <strong>Next.js</strong> and <strong>Gatsby</strong> are currently my favorite technologies. <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
-                            <br/> 
+                            I started out by getting a solid knowledge of <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>vanilla JavaScript</strong> (and about the 
+                            Web in general) and then moved on to frameworks and started to gradualy implement <strong>TypeScript</strong>.
+                            <br/><strong>React.js</strong> is my go-to JavaScript library and lately i've been moving towards Jamstack 
+                            (Next.js/Gatsby). <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
+                            <br/><br/> 
                             I also have an eye for design, so i always look forward to build interesting and fully responsive user interfaces.
                         </p>
                 </div>

@@ -1,4 +1,4 @@
-import styles from '../styles/Technologies.module.css'
+import styles from '../styles/Technologies.module.scss'
 import { BiArrowBack } from 'react-icons/bi'
 import { 
     SiTypescript, 
@@ -6,7 +6,6 @@ import {
     SiReact, 
     SiNextDotJs,
     SiSass,
-    SiStyledComponents,
     SiNodeDotJs,
     SiCss3,
     SiHtml5,
@@ -78,14 +77,10 @@ export default function Technologies() {
                                 <SiSass style={iconStyle} />
                                 <small>Sass</small>
                             </div>
-                            <div className={styles.technologyItem}>
-                                <SiStyledComponents style={iconStyle} />
-                                <small>Styled Components</small>
-                            </div>
                         </div>
                     </div>
                     <div>
-                        <h1>Others...</h1>
+                        <h1>Others</h1>
                         <div className={styles.technologiesList}>
                             <div className={styles.technologyItem}>
                                 <SiHtml5 style={iconStyle} />
@@ -115,7 +110,7 @@ export default function Technologies() {
                         </div>
                     </div>
                     <div>
-                        <h1>Getting better at...</h1>
+                        <h1>Learning</h1>
                         <div className={styles.technologiesList}>
                             <div className={styles.technologyItem}>
                                 <SiGatsby style={iconStyle} />

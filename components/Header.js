@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '../styles/Header.module.css'
+import styles from '../styles/Header.module.scss'
 import { BsArrowUpRight, BsPersonFill } from 'react-icons/bs'
 import { FiInstagram, FiGithub } from 'react-icons/fi'
 import { SiGmail } from 'react-icons/si'
