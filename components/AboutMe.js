@@ -29,14 +29,14 @@ function AboutMe() {
                             I like to challenge myself to learn new things and to keep improving myself, and that also applies to coding and development.
                             <br/><br/>
                             I love to work with <strong>front-end technologies</strong> and build <strong>good-looking</strong>,&nbsp; 
-                            <strong>performant</strong>, and <strong>acessible</strong> Web applications.
+                            <strong>performant</strong>, and <strong>accessible</strong> Web applications.
                             <br/>
-                            I started out by getting a solid knowledge of <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>vanilla JavaScript</strong> (and about the 
-                            Web in general) and then moved on to frameworks and started to gradualy implement <strong>TypeScript</strong>.
-                            <br/><strong>React.js</strong> is my go-to JavaScript library and lately i've been moving towards Jamstack 
+                            I started out by getting a solid knowledge of <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>vanilla JavaScript</strong>, and about the 
+                            Web in general, and then moved on to frameworks and started to gradually implement <strong>TypeScript</strong>.
+                            <br/><strong>React.js</strong> is my go-to JavaScript library, and lately i've been moving towards Jamstack 
                             (Next.js/Gatsby). <Link href="/technologies">You can find more information on my Tech Stack page.</Link>
                             <br/><br/> 
-                            I also have an eye for design, so i always look forward to build interesting and fully responsive user interfaces.
+                            I also have an eye for design and always look forward to building interesting and fully responsive user interfaces.
                         </p>
                 </div>
                 <div className={styles.navigation}>

@@ -40,7 +40,7 @@ export default function Technologies() {
                             <div className={styles.technologyItem}>
                                 <SiJavascript 
                                     style={iconStyle} 
-                                />
+                                />      
                                 <small>JavaScript</small>
                             </div>
                             <div className={styles.technologyItem}>
