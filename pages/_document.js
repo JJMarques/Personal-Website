@@ -9,6 +9,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="José Marques - Front-End Web Developer & Web Designer" />
                     <meta property="og:description" content="José Marques is a Front-End Web Developer / Web Designer from Coimbra, Portugal." />
                     <meta property="og:type" content="website"/>
+                    <meta property="og:image" content="/og-image.png"/>
                 </Head>
                 <body>
                     <Main />
