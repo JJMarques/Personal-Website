@@ -19,21 +19,26 @@ function Projects({ projects }) {
                 <div className={styles.projectsDisplay}>
                     {projects.map( (project, key) => (
                         <div className={styles.projectCard} key={key}>
+                            <a href={project.pageHref} target="_blank" rel="noreferrer">
                             <img 
                                 src={project.img} 
                                 className={styles.projectImg} 
                                 alt={project.name} 
                             />
+                            </a>
+                            <div className={styles.projectDescription}>
+                                <p>{project.description}</p>
+                            </div>
                             <div className={styles.projectIcons}>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                                     <a href={project.githubHref} target="_blank" rel="noreferrer">
-                                        <FiGithub style={{ fontSize: '1.5em' }} />
+                                        <FiGithub style={{ fontSize: '1.5em', color: '#DA32BE' }} />
                                     <small>Github</small>
                                     </a>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                                     <a href={project.pageHref} target="_blank" rel="noreferrer">
-                                        <FiArrowUpRight style={{ fontSize: '1.5em' }} />
+                                        <FiArrowUpRight style={{ fontSize: '1.5em', color: '#DA32BE' }} />
                                     <small>Visit</small>
                                     </a>
                                 </div>

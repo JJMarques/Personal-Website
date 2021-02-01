@@ -48,7 +48,7 @@
         .projectsDisplay {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 4rem 1rem;
+            gap: 4rem 2rem;
             margin-top: 5em;
             width: 100%;
             height: auto;
@@ -56,9 +56,21 @@
 
             .projectCard {
                 width: 100%;
-                height: 250px;
+                height: auto;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+
+                .projectDescription {
+                    font-size: 1em;
+                    word-wrap: break-word;
+                    margin: 20px 0;
+                    text-align: center;
+
+                    p {
+                        font-family: 'Rubik', sans-serif;
+                    }
+                }
                 
                 .projectImg {
                     height: 200px;
@@ -71,27 +83,27 @@
                     height: 50px;
                     width: 100%;
                     display: flex;
-                    justify-content: center;
                     align-items: center;
+                    justify-content: center;
                 }
 
                 .projectIcons a {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    padding: 0.5em;
-                    border-radius: 50%;
-                    margin: 0 5px;
+                    border-radius: 5px;
+                    color: rgb(36, 36, 36);
                     cursor: pointer;
                     text-decoration: none;
-                }   
-        
-                .projectIcons a small {
-                    margin-left: 10px;
+                    transition: 0.2s all ease-in-out;
 
                     &:hover {
                         color: rgb(218, 50, 190);
                     }
+                }   
+        
+                .projectIcons a small {
+                    margin-left: 10px;
                 }
             }
         }
@@ -142,7 +154,8 @@
 @media only screen and (max-width: 900px) {
     .projects {
         .projectsContainers {
-            width: 300px;
+            width: auto;
+            padding: 0 3em;
 
             .titleReturn {
                 .title {
@@ -160,7 +173,7 @@
             }
             .projectsDisplay {
                 grid-template-columns: repeat(1, 1fr);
-                gap: 1.5rem;
+                gap: 5rem;
             }
 
         }
@@ -172,7 +185,6 @@
         }
     }
 }
-
 @keyframes onLoad {
     0%   {
         transform: translateY(20px);

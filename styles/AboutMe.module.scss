@@ -53,7 +53,21 @@
     animation: onLoad 1s;
   
     p {
-      line-height: 2.1em;
+        font-family: 'Rubik', sans-serif;
+        line-height: 2.1em;
+
+        a {
+            font-family: 'Rubik', sans-serif;
+            color: rgb(27, 27, 27);
+
+            &:hover {
+                color: rgb(218, 50, 190);
+            }
+        }
+
+        strong {
+            font-family: 'Rubik', sans-serif;
+        }
     }
   }
   
