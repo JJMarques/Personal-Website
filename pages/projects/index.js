@@ -58,7 +58,7 @@ export async function getStaticProps() {
         {
             name: 'Task List Manager',
             img: '/tasklist.png',
-            description: 'Well... Another Task List app built with Next.js and Chakra UI. The point of the app was to experiment Chakra UI and to implement TypeScript on react components.',
+            description: 'Another Task List app built with Next.js and Chakra UI. The purpose of the app was to experiment Chakra UI and to implement TypeScript.',
             githubHref: 'https://github.com/JJMarques/taskList-nextjs',
             pageHref: 'https://task-list-nextjs.vercel.app/'
         },
