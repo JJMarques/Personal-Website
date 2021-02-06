@@ -14,8 +14,7 @@ import {
     SiRedux,
     SiGatsby,
     SiAdobexd,
-    SiFigma,
-    SiJest } from 'react-icons/si'
+    SiFigma, } from 'react-icons/si'
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
@@ -91,8 +90,8 @@ export default function Technologies() {
                                 <small>Git</small>
                             </div>
                             <div className={styles.technologyItem}>
-                                <SiDocker style={iconStyle} />
-                                <small>Docker</small>
+                                <SiRedux style={iconStyle} />
+                                <small>Redux</small>
                             </div>
                         </div>
                     </div>
@@ -116,14 +115,10 @@ export default function Technologies() {
                                 <SiGatsby style={iconStyle} />
                                 <small>Gatsby</small>
                             </div>
-                            <div className={styles.technologyItem}>
-                                <SiRedux style={iconStyle} />
-                                <small>Redux</small>
-                            </div>
-                            <div className={styles.technologyItem}>
+                            {/* <div className={styles.technologyItem}>
                                 <SiJest style={iconStyle} />
                                 <small>Jest</small>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -35,18 +35,18 @@ export async function getStaticProps() {
             pageHref: 'https://pokesearch2020.netlify.app/'
         },
         {
-            name: 'José Marques - Unsplash',
-            img: '/phportfolio.png',
-            description: 'A webpage that displays my photographic portfolio on Unsplash, it also shows some stats about my photographies. It is fully provided by the Unsplash API',
-            githubHref: 'https://github.com/JJMarques/unsplash-album',
-            pageHref: 'https://jose-marques-unsplash.vercel.app/'
-        },
-        {
             name: 'Meteorologia PT',
             img: '/meteorologia.png',
             description: 'A Web app that fetches weekly information about the weather in the districts of Portugal. It is powered by IPMA and built with React.js ',
             githubHref: 'https://github.com/JJMarques/V2-meteorologia-app-react',
             pageHref: 'https://meteorologia-pt.netlify.app/'
+        },
+        {
+            name: 'José Marques - Unsplash',
+            img: '/phportfolio.png',
+            description: 'A webpage that displays my photographic portfolio on Unsplash, it also shows some stats about my photographies. It is fully provided by the Unsplash API',
+            githubHref: 'https://github.com/JJMarques/unsplash-album',
+            pageHref: 'https://jose-marques-unsplash.vercel.app/'
         },
         {
             name: 'Redux ToDo',

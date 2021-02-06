@@ -125,83 +125,129 @@
     }
   }
   
-  @media only screen and (max-width: 600px) {
-    .social {
-      transform: translateX(-60px);
-  
-      a {
-        height: 45px;
-        width: 45px;
-        font-size: 1.5em;
-      }
+@media only screen and (max-width: 600px) {
+.social {
+
+    a {
+    height: 45px;
+    width: 45px;
+    font-size: 1.5em;
     }
-  
-    .name {
-      font-size: 4em;
-      margin-left: 0.7em;
-      margin-bottom: 0.6em;
+}
+
+.name {
+    font-size: 4em;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+
+.roles {
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+    color: rgb(218, 50, 190);
+    font-size: 1.4em;
+    animation: onLoad 1s;
     }
-  
-    .roles {
-      flex-direction: column;
-  
-      h3 {
-        color: rgb(218, 50, 190);
-        font-size: 1.4em;
-        animation: onLoad 1s;
-      }
-  
-      span {
-        color: white;
-        font-weight: 200;
-        font-size: 1.8em;
-        margin: 0;
-        animation: onLoad 1s;
-      }
+
+    span {
+    color: white;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 0;
+    animation: onLoad 1s;
     }
-  
-    .callToAction a {
-      font-size: 0.9em;
+}
+
+.callToAction a {
+    font-size: 0.9em;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.social {
+
+    a {
+    height: 37px;
+    width: 37px;
+    font-size: 1.2em;
     }
-  }
-  
-  @keyframes example {
-    0% {
-      transform: scale(1);
-      -webkit-transform: scale(1);
+}
+
+.name {
+    font-size: 3.5em;
+    margin-bottom: 0.6em;
+}
+
+.roles {
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+    color: rgb(218, 50, 190);
+    font-size: 1.3em;
+    animation: onLoad 1s;
     }
-  
-    50% {
-      transform: scale(1.08);
-      -webkit-transform: scale(1.08);
+
+    span {
+    color: white;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 0;
+    animation: onLoad 1s;
     }
-  
-    100% {
-      transform: scale(1);
-      -webkit-transform: scale(1);
+}
+
+.callToAction {
+    a {
+        font-size: 0.8em;
     }
-  }
+}
+
+.otherOptions {
+    margin-top: 2em;
+}
+
+}
   
-  @keyframes onLoad {
-    0% {
-      transform: translateY(20px);
-      -webkit-transform: translateY(20px);
-      opacity: 0;
-    }
-  
-    100% {
-      transform: translateY(0);
-      -webkit-transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes onLoadIcons {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
+@keyframes example {
+0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+50% {
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+}
+
+100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+}
+
+@keyframes onLoad {
+0% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    opacity: 0;
+}
+
+100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+}
+}
+
+@keyframes onLoadIcons {
+0% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+}
