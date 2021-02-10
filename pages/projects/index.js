@@ -60,7 +60,7 @@ export async function getStaticProps() {
             img: '/breakingbad.png',
             description: 'A Web site that allows you to search for Breaking Bad characters. It is powered by the Breaking Bad API and built with Next.js',
             githubHref: 'https://github.com/JJMarques/breaking-bad',
-            pageHref: 'https://breaking-bad-git-main.jjmarques.vercel.app/'
+            pageHref: 'https://breaking-bad-gules.vercel.app/'
         },
         {
             name: 'Task List Manager',

@@ -5,7 +5,6 @@ import { FiGithub, FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
 function Projects({ projects }) {
-
     return (
         <div className={styles.projects}>
             <div className={styles.projectsContainers}>
