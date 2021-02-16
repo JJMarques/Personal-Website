@@ -97,14 +97,18 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border-radius: 5px;
-                    color: rgb(36, 36, 36);
+                    border-radius: 20px;
+                    color: rgb(53, 53, 53);
                     cursor: pointer;
                     text-decoration: none;
                     transition: 0.2s all ease-in-out;
+                    font-weight: 700;
+                    padding: 8px 15px;
+                    background: transparent;
 
                     &:hover {
                         color: rgb(218, 50, 190);
+                        background: rgb(211, 211, 211);
                     }
                 }   
         

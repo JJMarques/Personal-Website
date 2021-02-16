@@ -1,16 +1,25 @@
-import Head from 'next/head'
-import AboutMe from '../../components/AboutMe'
+import Head from "next/head";
+import AboutMe from "../../components/AboutMe";
 
 export default function AboutMePage() {
-    return(
+    return (
         <main>
             <Head>
-                <title>About Me - José Marques - Front-End Web Developer & Web Designer</title>
-                <meta name="description" content="Get to know me! Im José Marques and im a Front-End Web Developer and Web Designer from Coimbra, Portugal." />
-                <meta property="og:title" content="About Me - José Marques - Front-End Web Developer & Web Designer" />
-                <meta property="og:description" content="Get to know me! Im José Marques and im a Front-End Web Developer and Web Designer from Coimbra, Portugal." />
+                <title>About Me - José Marques - Front-End Developer</title>
+                <meta
+                    name="description"
+                    content="Get to know me! Im José Marques and im a Front-End Developer from Coimbra, Portugal."
+                />
+                <meta
+                    property="og:title"
+                    content="About Me - José Marques - Front-End Developer"
+                />
+                <meta
+                    property="og:description"
+                    content="Get to know me! Im José Marques and im a Front-End Developer from Coimbra, Portugal."
+                />
             </Head>
             <AboutMe />
         </main>
-    )
+    );
 }
