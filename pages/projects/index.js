@@ -36,12 +36,12 @@ export async function getStaticProps() {
             pageHref: "https://hot-news-portugal.jjmarques.vercel.app/",
         },
         {
-            name: "PokeSearch",
+            name: "PokeSearcher",
             img: "/pokesearch.png",
             description:
                 "A Web app that allows you to search for all the current Pokemons! It is Powered by PokeApi and built with React.js.",
-            githubHref: "https://github.com/JJMarques/PokeSearch-v1-react",
-            pageHref: "https://pokesearch2020.netlify.app/",
+            githubHref: "https://github.com/JJMarques/PokeSearcher",
+            pageHref: "https://pokesearcher.vercel.app/",
         },
         {
             name: "Meteorologia PT",
